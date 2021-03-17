@@ -1,0 +1,36 @@
+.eccv-container {
+  background-color: #EEEEEE;
+  padding: 0 5% 40px 5%;
+
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+
+  .detail-container {
+    padding: 30px;
+    background-color: #ffffff;
+    min-height: 400px;
+    height: 100%;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .title {
+      font-size: 16px;
+      line-height: 24px;
+      color: #151516;
+      margin: 20px 0 15px 0;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 20px;
+      color: #737373;
+      height: 60px;
+    }
+  }
+}

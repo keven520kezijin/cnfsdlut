@@ -1,0 +1,218 @@
+.header-container {
+  height: 520px;
+  background-image: url('../../assets/images/about/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  // margin: 20px 0;
+}
+
+.detail-container {
+  padding: 60px 30px 60px 60px;
+  cursor: pointer;
+
+  .title {
+    font-size: 6vh;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+
+  .description {
+    line-height: 30px;
+    color: #ffffff;
+  }
+}
+
+.contact-container {
+  padding: 60px 10%;
+
+  .item-row {
+    display: table;
+    line-height: 30px;
+    font-size: 14px;
+    color: #0060ac;
+    width: 100%;
+
+    .item-text {
+      display: table-cell;
+    }
+
+    .item-date {
+      display: table-cell;
+      width: 100px;
+      text-align: right;
+    }
+  }
+
+  .title {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    color: #474747;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+
+  .description {
+    font-size: 14px;
+    color: #474747;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+}
+
+.info-container {
+  padding: 40px 10%;
+  background-color: #f2f2f2;
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+}
+
+.team-member-container {
+  padding: 40px 10%;
+  //background-color: #f2f2f2;
+  background-color: #ffffff;
+
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about-avatar {
+    img {
+      border-radius: 50%;
+      max-width: 260px;
+      max-height: 260px;
+      object-fit: contain;
+      margin-top: 20px;
+    }
+  }
+
+  .name {
+    font-size: 16px;
+    color: #000000;
+    margin: 10px;
+  }
+
+  .position {
+    font-size: 14px;
+    color: #474747;
+    line-height: 22px;
+  }
+}
+
+.speech-container {
+  padding: 40px 5%;
+
+  img {
+    max-width: 260px;
+    max-height: 260px;
+    width: 100%;
+    display: block;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+
+  .name {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+}
+
+.item-container {
+  img {
+    height: 63px;
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #bebebe;
+  }
+
+  .description {
+    font-size: 14px;
+    color: #474747;
+    line-height: 24px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
+
+.team-info {
+  height: 300px;
+  background-image: url(https://www.msra.cn/wp-content/uploads/2017/08/map2.jpg);
+  background-color: rgba(0,0,0,0.6);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: relative;
+
+  .bg-container {
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .detail-container {
+    padding: 40px;
+    cursor: pointer;
+    left: 12%;
+    position: absolute;
+
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .description {
+      line-height: 30px;
+      color: #ffffff;
+    }
+  }
+
+}

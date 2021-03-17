@@ -1,0 +1,27 @@
+.footer-container {
+  background: #f2f2f2;
+  padding: 20px 5%;
+
+  .title {
+    color: #616161;
+    word-break: break-word;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 36px 0 4px;
+    font-weight: 700;
+  }
+
+  .item {
+    word-break: break-word;
+    padding: 8px 0;
+    font-size: 12px;
+    color: #616161;
+  }
+
+  .last-item {
+    /*margin-top: 20px;*/
+    padding: 8px 0;
+    font-size: 14px;
+    color: #616161;
+  }
+}

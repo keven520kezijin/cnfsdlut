@@ -1,0 +1,107 @@
+.header-container {
+  height: 360px;
+  background-image: url('https://www.msra.cn/wp-content/uploads/2017/06/Banner_Jobs-1-1920x450.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.detail-container {
+  padding: 60px;
+  cursor: pointer;
+
+  .title {
+    font-size: 6vh;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+
+  .description {
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+}
+
+.search-container {
+  margin: 0 5% 40px 5%;
+
+  .search-button {
+    border-color: #0060ac;
+    border-radius: 2px;
+    background-color: #0060ac;
+    min-width: 80px;
+    font-size: 14px;
+    padding: 9px 20px;
+  }
+
+  ::v-deep .el-form-item__label {
+    font-weight: normal;
+  }
+
+  .col-item {
+    padding: 12px 0;
+    color: #2F2F2F;
+    font-size: 14px;
+  }
+
+  .header-row {
+    background-color: #e4e4e4;
+    margin: 20px 0 0 0 !important;
+  }
+
+  .item-row {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 0;
+    margin: 0 !important;
+
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #0060ac;
+      margin-bottom: 16px;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .margin-left {
+      margin-left: 30px;
+    }
+  }
+}
+
+.search-form {
+  border-bottom: 1px solid #CCD1D9;
+}
+
+.top-project-info {
+  height: 300px;
+  background-image: url('https://www.msra.cn/wp-content/uploads/2017/08/interns-1920×332-1920x332.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+
+  .detail-container {
+    padding: 40px;
+    cursor: pointer;
+    margin-left: 12%;
+
+    .title {
+      font-size: 30px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .description {
+      line-height: 30px;
+      color: #ffffff;
+    }
+  }
+}

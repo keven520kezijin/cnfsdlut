@@ -1,0 +1,78 @@
+.learn-container {
+  padding: 0 5% 40px 5%;
+
+  .learn-1, .learn-3 {
+    background-color: transparent !important;
+  }
+
+  //.learn-1 {
+  //  background-image: url("../../../../assets/images/dash/learn-1.png");
+  //  background-repeat: no-repeat;
+  //  background-size: contain;
+  //  background-position: center;
+  //}
+
+  .item-container {
+    display: flex;
+    margin-bottom: 15px;
+    min-height: 125px;
+
+    .left-item {
+      //min-height: 120px;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.9);
+      min-width: 220px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .right-item {
+      margin-left: 30px;
+      width: 65%;
+      font-size: 18px;
+
+      .title {
+        font-size: 16px;
+        line-height: 25px;
+        color: #151516;
+        margin-bottom: 0;
+      }
+
+      .description {
+        font-size: 14px;
+        line-height: 25px;
+        color: #737373;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .job-container {
+    .title {
+      color: #0060ac;
+      font-size: 18px;
+      line-height: 25px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 90%;
+      display: inline-block;
+    }
+
+    .info {
+      font-size: 14px;
+      line-height: 24px;
+      color: #737373;
+      min-height: 48px;
+    }
+
+    span.vertical-line {
+      margin: 0 25px;
+    }
+  }
+}

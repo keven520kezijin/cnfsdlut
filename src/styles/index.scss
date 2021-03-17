@@ -1,0 +1,163 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import "./iconfont.css";
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+
+.aq-flex {
+  display: flex;
+}
+
+// 行内垂直居中
+.aq-vertical-between {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+// 行内垂直居中
+.aq-vertical-center {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+// 行内垂直居中元素居右
+.aq-vertical-end {
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+// 行内水平 & 垂直居中
+.aq-vertical-middle {
+  display: flex !important;
+  align-items: center !important;
+}
+
+// flex 居右
+.flex-end {
+  justify-content: flex-end !important;
+  -webkit-justify-content: flex-end !important;
+  -moz-justify-content: flex-end !important;
+}
+
+.el-row--flex {
+  flex-wrap: wrap;
+}
+
+.big-title {
+  text-align: center;
+  border-bottom: 1px solid #CCD1D9;
+  margin-bottom: 50px;
+
+  .title {
+    font-size: 30px;
+    padding: 60px 0 30px;
+    color: #231f20;
+    font-weight: bold;
+  }
+
+  .short-line {
+    width: 42px;
+    border-bottom: 4px solid #0060ac;
+    margin: 0 auto;
+  }
+}
+
+.com-button  {
+  text-align: center;
+  padding: 30px 0 50px;
+
+  .btn-more {
+    width: 110px;
+    height: 35px;
+    margin: 0 auto;
+    border: 1px solid #0060ac;
+    color: #0060ac;
+    text-align: center;
+    line-height: 33px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 3px;
+    outline: none!important;
+  }
+
+  .btn-more:hover {
+    background-color: #F2F2F2;
+  }
+}
+
+.page-w {
+  // max-width: 1600px;
+  padding: 0 5%;
+  // margin: 0 auto;
+  position: relative;
+}
+// @media screen and (max-width: 900px) {
+//   .page-w {
+//     width: 100%;
+//   }
+// }
